@@ -15,6 +15,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="bg-red-400">hello</h1>
+    <!-- main-content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- header section -->
+        <header class="h-screen flex flex-col justify-center items-center md:flex-row space-y-12 pt-10 mb-20">
+            <!-- text-content -->
+            <div>
+                <h1 class="text-4xl w-3/4 md:text-7xl">It's good tea time at The Tea House</h1>
+                <p class="text-gray-700 w-3/4 my-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="capitalize text-white px-8 py-3 rounded border-none bg-gradient-to-r from-orange-500 to-red-500 text-lg">Explore more
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </button>
+            </div>
+            <!-- image-content -->
+            <div class="relative">
+                <!-- imgage -->
+                <div class="w-96">
+                    <img class="w-full" src="./images/banner.png" alt="banner-img">
+                </div>
+                <!-- card -->
+                <div class="absolute p-3 md:px-6 lg:py-4 bg-white shadow-lg shadow-gray-300 rounded-lg flex space-x-4 flex-row justify-cneter items-center bottom-14 md:bottom-10 lg:bottom-10">
+                    <i class="fa-solid fa-star text-xl text-orange-600"></i>
+                    <div>
+                        <h3 class="text-2xl font-semibold">5.00</h3>
+                        <p class="capitalize text-gray-700 text-sm">Trust polit Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
 </body>
 </html>
